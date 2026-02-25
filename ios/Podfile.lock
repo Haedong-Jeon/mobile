@@ -148,6 +148,8 @@ PODS:
   - GoogleUtilities/UserDefaults (8.1.0):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
+  - home_widget (0.0.1):
+    - Flutter
   - image_picker_ios (0.0.1):
     - Flutter
   - multistockfish_chess (0.3.0):
@@ -168,9 +170,9 @@ PODS:
     - PromisesObjC (= 2.4.0)
   - quick_actions_ios (0.0.1):
     - Flutter
-  - SDWebImage (5.21.5):
-    - SDWebImage/Core (= 5.21.5)
-  - SDWebImage/Core (5.21.5)
+  - SDWebImage (5.21.6):
+    - SDWebImage/Core (= 5.21.6)
+  - SDWebImage/Core (5.21.6)
   - share_plus (0.0.1):
     - Flutter
   - shared_preferences_foundation (0.0.1):
@@ -202,6 +204,7 @@ DEPENDENCIES:
   - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
   - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
   - flutter_secure_storage_darwin (from `.symlinks/plugins/flutter_secure_storage_darwin/darwin`)
+  - home_widget (from `.symlinks/plugins/home_widget/ios`)
   - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
   - multistockfish_chess (from `.symlinks/plugins/multistockfish_chess/ios`)
   - multistockfish_sf16 (from `.symlinks/plugins/multistockfish_sf16/ios`)
@@ -266,6 +269,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_native_splash/ios"
   flutter_secure_storage_darwin:
     :path: ".symlinks/plugins/flutter_secure_storage_darwin/darwin"
+  home_widget:
+    :path: ".symlinks/plugins/home_widget/ios"
   image_picker_ios:
     :path: ".symlinks/plugins/image_picker_ios/ios"
   multistockfish_chess:
@@ -320,6 +325,7 @@ SPEC CHECKSUMS:
   flutter_secure_storage_darwin: acdb3f316ed05a3e68f856e0353b133eec373a23
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
   GoogleUtilities: 00c88b9a86066ef77f0da2fab05f65d7768ed8e1
+  home_widget: 54b4f6b36ed8d64cfee594a476225c35c3e45091
   image_picker_ios: e0ece4aa2a75771a7de3fa735d26d90817041326
   multistockfish_chess: 826a3fb3746cbf66496bb1388eb664084fac393c
   multistockfish_sf16: dfd62eb23f5caaad596fa61e88624ead35f0a5e8
@@ -329,7 +335,7 @@ SPEC CHECKSUMS:
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
   quick_actions_ios: 500fcc11711d9f646739093395c4ae8eec25f779
-  SDWebImage: e9c98383c7572d713c1a0d7dd2783b10599b9838
+  SDWebImage: 1bb6a1b84b6fe87b972a102bdc77dd589df33477
   share_plus: 50da8cb520a8f0f65671c6c6a99b3617ed10a58a
   shared_preferences_foundation: 7036424c3d8ec98dfe75ff1667cb0cd531ec82bb
   sound_effect: fa0600cdb9ebdc8ca14671fdc20418d7c223e92b
